@@ -7,12 +7,14 @@ import { ReactNode } from "react";
 export default function Home() {
   return (
     <div className="mt-[24vh] flex flex-col w-full text-center px-6 sm:px-0 pb-72">
-      <div className="absolute sm:fixed right-0 text-9xl text-zinc-400 opacity-20 spider">
+      <div className="absolute sm:fixed right-0 text-9xl text-zinc-400 opacity-65 spider">
         🕷️
       </div>
+
       <div className="absolute sm:fixed -top-24 -left-12 text-[200px] text-zinc-400 opacity-20">
         🕸️
       </div>
+
       <div className="flex items-start flex-col mx-auto">
         <span className="text-xl mx-auto sm:-ml-12 text-zinc-400">
           Welcome to my
